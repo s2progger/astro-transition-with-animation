@@ -11,12 +11,12 @@ import { ClientRouter } from "astro:transitions";
 
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-        <title>Astro Basics</title>
+        <title>StarField Demo</title>
 
         <ClientRouter />
     </head>
     <body>
-        <Starfield transition:persist transition:animate="none" />
+        <Starfield transition:persist />
         <slot />
     </body>
 </html>
